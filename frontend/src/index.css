@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-regular{
+    border:1px solid #1B1927;
+    @apply border w-full rounded-md px-2 py-2;
+}
+
+.btn-primary{
+    background:#17B67C;
+    @apply px-3 py-2 rounded-md text-white font-semibold w-full hover:[background:#177d58] cursor-pointer;
+}
+
+
+.left{
+    background:#3D465D;
+    @apply self-start text-white rounded-lg px-2 py-2;
+}
+
+.right{
+    background:#17B67C;
+    @apply self-end text-white rounded-lg px-2 py-2;
+}
