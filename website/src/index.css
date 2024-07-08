@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Figtree", sans-serif;
+}
+
+/* Button Style */
+
+.primary-btn {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border: 1px solid #dc3545;
+  @apply text-white bg-primary p-2 rounded text-lg font-semibold whitespace-nowrap;
+}
+
+.primary-btn.large {
+  @apply text-xl px-8 py-4;
+}
+.primary-btn:hover {
+  background: black;
+  color: #dc3545;
+}
+
+.secondry-btn {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  @apply text-xl text-white px-8 py-4 bg-primary hover:bg-black rounded font-semibold;
+}
+
+
+.icon-btn{
+  @apply text-white hover:text-primary z-10;
+}
